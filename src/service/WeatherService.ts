@@ -3,7 +3,7 @@ import { WeatherData } from "../models/WeatherData";
 
 class WeatherService {
   
-  private URL = "https://api.openweathermap.org/data/2.5/weather?q={{ city }},JP&appid=<your key>&lang=ja&units=metric";
+  private URL = "https://api.openweathermap.org/data/2.5/weather?q={{ city }},JP&appid=c68304c3b515d42cd3422342169ea924&lang=ja&units=metric";
 
   public async getWeather(city: string): Promise<WeatherData> {
     console.log(city);
